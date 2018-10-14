@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #79756f;
+  background-color: #dbd6cf;
   font-family: Arial, sans-serif;
   line-height: 1.5;
 }
@@ -25,15 +25,26 @@ header {
 .planets li {
   display: inline-block;
   margin: .3em;
-  max-width: 20em;
-  padding: .75em;
+  padding: .6em;
   background-color: #713837;
   border-radius: 5px;
   text-align: center;
   color: #fff;
 }
 
+body {
+  margin: 0;
+  padding: .5em;
+  background-color: #79756f;
+  border: 3px solid #595652;
+}
+
 .planets li:hover {
   background-color: #f33;
   color: #fff;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
