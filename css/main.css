@@ -9,9 +9,9 @@ html {
   box-sizing: inherit;
 }
 
-header {
+h1 {
   text-align: center;
-  font-family: Bevan, sans-serif;
+  font-family: Bevan, cursive;
   color: #fff;
 }
 
@@ -42,9 +42,4 @@ body {
 .planets li:hover {
   background-color: #f33;
   color: #fff;
-}
-
-a {
-  color: white;
-  text-decoration: none;
 }
