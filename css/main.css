@@ -26,7 +26,6 @@ h1 {
 .planets li {
   display: inline-block;
   margin: 0;
-  padding: .75em;
   background-color: #713837;
   border-radius: 5px;
   text-align: center;
@@ -40,7 +39,14 @@ body {
   border: 3px solid #595652;
 }
 
-.planets li:hover {
+.planets a:hover {
   background-color: #f33;
   color: #fff;
+}
+
+.planets a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: .75em;
 }
